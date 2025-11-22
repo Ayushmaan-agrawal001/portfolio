@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+  color: white;
+  background-color:rgb(176, 156, 176);
+}
+.background{
+  height: 35px;
+  width:auto;
+  border: 2px solid;
+  background-color:rgb(142, 106, 142);
+}
+.outter{
+    height: 40px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.innerhtml ,.innercss,.innerjs,.innerreact,.innernext,.innernode,.innersql,.innerc,.innerpython{
+   height: 40px;
+    width: 160px; 
+     background-color: rgb(125, 109, 125);
+      border-radius: 20px;
+      text-align: center;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+.row{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.statements{
+  height: 500px;
+  width: 500px;
+  margin-left: 350px;
+  margin-top: 100px;
+  font-size: medium;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#skills {
+  text-align:left;      
+}
+.skillstatement{
+  font-size: medium;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imageee{
+  margin-left: 220px;
+  margin-top: -240px;
+}
+
+.navigations {
+  list-style: none;       
+  display: flex;          
+  gap: 20px;             
+  padding: 0;             
+  margin: 0;   
+  margin-left:25%;           
+}
+
+.navigations li a {
+  text-decoration: none;  
+  color: purple;          
+  font-weight: 600; 
+  height: 30px;
+  width:90px;
+  border-radius: 20px;
+  display: flex;               
+  align-items: center;        
+  justify-content: center;    
+  gap: 5px;            
+}
+.navigations  button:hover{
+  color:red;
+  border-radius: 20px;
+  border-color: white;
+  cursor: pointer; 
+}
+.img_div{
+  height:150px;
+  width:200px;
+  border-radius: 5px;
+}
+.text_div{
+margin-left: 5px;
+margin-top: 30px;
+}
+#tictactoe,#tourque_talks,#calcify{
+    height:150px;
+  width:550px;
+  border:2px,solid,white;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 50px;
+  gap:20px;
+}
+.buttonss:hover{
+  height:30px;
+  width:120px;
+  border-radius: 20px;
+  color: rgb(182, 140, 221);
+}
+.buttonss a{
+  text-decoration: none;
+}
+.buttonss{
+  margin-top: 10px;
+}
+.name{
+  font-size: larger;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+  margin-left: 220px;
+}
+.homees{
+  display: flex;
+  gap:150px;
+}
+#designation {
+  margin-left: 0;   
+  margin-top: -30px; 
+  margin-left: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#align{
+  margin-left: 15px;
+  margin-bottom:0px;
+}
+.editorrpic{
+  margin-top: -27%;
+  margin-left: 850px;
+}
+.text_div{
+  font-size: medium;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttonss {
+  transition: all 0.3s ease;
+}
+
+.buttonss:hover {
+  background-color: rgba(182, 140, 221, 0.3);
+  color: rgb(182, 140, 221);
+  transform: scale(1.05);
+}
+
+#tourque_talks, #calcify, #tictactoe {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#tourque_talks:hover, #calcify:hover, #tictactoe:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+/* @media (max-width: 768px) {
+  .homees {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 0;
+  }
+
+  .name {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .imageee {
+    margin-left: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #tourque_talks, #calcify, #tictactoe {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img_div {
+    width: 80%;
+    height: auto;
+  }
+
+  .text_div {
+    margin-left: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .navigations {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .navigations li a {
+    width: auto;
+    padding: 10px 15px;
+  }
+} */
