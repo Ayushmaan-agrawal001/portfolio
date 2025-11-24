@@ -1,0 +1,24 @@
+*{
+     margin:0;
+    padding: 0;
+}
+body{
+  color: white;
+  background-color:rgb(176, 156, 176);
+}
+.box_div{
+    height: 500px;
+    width: 800px;
+    border:2px solid;
+    margin:100px 0px 0px 300px;
+}
+.contact_info{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact_info h5{
+    justify-content: center;
+    padding-left:150px;
+    padding-top: 20px;
+
+}
